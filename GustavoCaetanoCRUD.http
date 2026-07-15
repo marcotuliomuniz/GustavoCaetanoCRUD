@@ -1,0 +1,6 @@
+@GustavoCaetanoCRUD_HostAddress = http://localhost:5101
+
+GET {{GustavoCaetanoCRUD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

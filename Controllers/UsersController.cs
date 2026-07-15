@@ -23,4 +23,28 @@ public class UsersController : ControllerBase
 
         return Ok(response);
     }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteUserById(int id)
+    {
+        var user = await _appDbContext.Users.FindAsync(id);
+
+        if (user == null)
+        {
+            return NotFound(new { message = "Usário não foi encontrado." });
+        }
+
+        _appDbContext.Users.Remove(user);
+        await _appDbContext.SaveChangesAsync();
+
+        return Ok(new { message = "Usuário removido com sucesso!" });
+    }
+
+    [HttpGet("{id}")]
+    public async Task<IActionResult> FindUserById(int id)
+    {
+        var user = await _appDbContext.Users.FindAsync(id);
+
+        return Ok(user);
+    }
 }

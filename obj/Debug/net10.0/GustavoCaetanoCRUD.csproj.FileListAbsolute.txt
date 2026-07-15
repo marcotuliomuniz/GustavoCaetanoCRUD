@@ -119,3 +119,4 @@ C:\Users\Túlio\dev\dream_team\backend\GustavoCaetanoCRUD\obj\Debug\net10.0\refi
 C:\Users\Túlio\dev\dream_team\backend\GustavoCaetanoCRUD\obj\Debug\net10.0\GustavoCaetanoCRUD.pdb
 C:\Users\Túlio\dev\dream_team\backend\GustavoCaetanoCRUD\obj\Debug\net10.0\GustavoCaetanoCRUD.genruntimeconfig.cache
 C:\Users\Túlio\dev\dream_team\backend\GustavoCaetanoCRUD\obj\Debug\net10.0\ref\GustavoCaetanoCRUD.dll
+C:\Users\Túlio\dev\dream_team\backend\GustavoCaetanoCRUD\obj\Debug\net10.0\GustavoCaetanoCRUD.sourcelink.json
